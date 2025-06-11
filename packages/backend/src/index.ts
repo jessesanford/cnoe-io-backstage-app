@@ -1,5 +1,5 @@
 import { createBackend } from '@backstage/backend-defaults';
-import { authModuleKeycloakOIDCProvider } from './plugins/auth';
+// import { authModuleKeycloakOIDCProvider } from './plugins/auth';
 import { cnoeScaffolderActions } from './plugins/scaffolder';
 import { legacyPlugin } from '@backstage/backend-common';
 
@@ -33,7 +33,7 @@ backend.add(
   import('@roadiehq/scaffolder-backend-module-http-request/new-backend'),
 );
 // cnoe plugins
-backend.add(authModuleKeycloakOIDCProvider);
+// backend.add(authModuleKeycloakOIDCProvider);
 backend.add(cnoeScaffolderActions);
 backend.add(import('@internal/backstage-plugin-terraform-backend'));
 

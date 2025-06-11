@@ -62,7 +62,7 @@ techdocs:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
-  environment: local # set this to development to enable SSO
+  environment: development # set this to development to enable SSO
   session:
     secret: abcdfkjalskdfjkla
   providers:
